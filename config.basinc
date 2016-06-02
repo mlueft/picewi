@@ -1,0 +1,23 @@
+; 1 - Bit order is reversed
+; 0 - Bit order is not reversed
+#DEFINE REVERSE_DAC_BITS 1
+
+; 0 - Bit order reverse is done manually
+; 1 - Bit order reverse is done with picaxe reverse function
+#DEFINE REVERSE_FUNCTION_SUPPORTED 0
+
+; 0 - No debug functions are used
+; 1 - debug functions are used
+#DEFINE _DEBUG 0
+
+; min sensor value concidered as blow 0-255
+let MINSENSORDATA = 6
+
+; max output value 0-255
+let MAXOUTPUTLEVEL = 80
+
+; min output value 0-255
+let MINOUTPUTLEVEL = 16
+
+; Multiply measured value 
+let PRESSUREMULTIPLYER = 10
